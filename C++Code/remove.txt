@@ -1,0 +1,4 @@
+g++ -g -c -std=c++11 FileController.cpp
+g++ -g -c -std=c++11 ConstructQueryPlan.cpp
+g++ -g -c -std=c++11 Analyzer.cpp
+g++ -g -c -std=c++11 Lexer.cpp

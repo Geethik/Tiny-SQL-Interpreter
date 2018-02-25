@@ -1,0 +1,8593 @@
+Analyzing input....
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:INSERT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:DELETE
+Parsing <Delete>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found TableName: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: grade
+Found Columname: grade
+0NA.grade
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a LITERAL: E
+Literal: E
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:4
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:B
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:DELETE
+Parsing <Delete>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found TableName: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:DROP
+Analyzing <DropTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Table coursewill be dropped
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:98
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:69
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:64
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:15
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:90
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:15
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:17
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:B
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:4
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:97
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:D
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:5
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:66
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:6
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:65
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:B
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:7
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:73
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:8
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:62
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:9
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:61
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:D
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:10
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:70
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:70
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:11
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:59
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:D
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:12
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:70
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:58
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:13
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:77
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:14
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:50
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:56
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:D
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: homework
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: project
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:17
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: sid
+Found Columname: sid
+0NA.sid
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: grade
+Found Columname: grade
+0NA.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: sid
+Found Columname: sid
+0NA.sid
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.grade
+course.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Found Keyword:DISTINCT
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: grade
+Found Columname: grade
+0NA.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Found Keyword:DISTINCT
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:ORDER
+Found Keyword:BY
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: grade
+Found Columname: grade
+0NA.grade
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a LITERAL: A
+Literal: A
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 99
+Integer: 99
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Found a Keyword: NOT
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 0
+Integer: 0
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 70
+Integer: 70
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: homework
+Found Columname: homework
+0NA.homework
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Found a Syntax: [
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: homework
+Found Columname: homework
+0NA.homework
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Syntax: ]
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found an Operator: +
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: homework
+Found Columname: homework
+0NA.homework
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 200
+Integer: 200
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a Syntax: (
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 30
+Integer: 30
+Found an Operator: +
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: homework
+Found Columname: homework
+0NA.homework
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 20
+Integer: 20
+Found an Operator: +
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 50
+Integer: 50
+Found a Syntax: )
+Found an Operator: /
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: grade
+Found Columname: grade
+0NA.grade
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a LITERAL: C
+Literal: C
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Found a Syntax: [
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 70
+Integer: 70
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 70
+Integer: 70
+Analyzing <Search Condition>
+Found a Syntax: ]
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Found a Keyword: NOT
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a Syntax: (
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: exam
+Found Columname: exam
+0NA.exam
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 30
+Integer: 30
+Found an Operator: +
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: homework
+Found Columname: homework
+0NA.homework
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 20
+Integer: 20
+Found an Operator: +
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: project
+Found Columname: project
+0NA.project
+Found an Operator: *
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 50
+Integer: 50
+Found a Syntax: )
+Found an Operator: /
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Found a COMPARISON OPERATOR Syntax: <
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 60
+Integer: 60
+Analyzing <Search Condition>
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Analyzing <DataType>
+Found DataType:STR20
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:16
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:25
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:E
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:17
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:99
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:B
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:98
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:C
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:4
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:97
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:D
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:5
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:66
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:6
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:65
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:B
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: sid
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: exam
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: grade
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:18
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found LITERAL:A
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.grade
+course.grade
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.grade
+course2.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Found Keyword:DISTINCT
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.grade
+course.grade
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.grade
+course2.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Analyzing <Search Condition>
+Found Keyword:ORDER
+Found Keyword:BY
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Found a Syntax: [
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Syntax: ]
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.homework
+course.homework
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Found a Syntax: [
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.homework
+course.homework
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found an INTEGER: 100
+Integer: 100
+Analyzing <Search Condition>
+Found a Syntax: ]
+Analyzing <Search Condition>
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Found Keyword:DISTINCT
+Analyzing <SelectList>
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.grade
+course.grade
+Found Syntax:,
+Analyzing <ParseSelectSublist>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.grade
+course2.grade
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.sid
+course.sid
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.sid
+course2.sid
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Found a Syntax: [
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found a COMPARISON OPERATOR Syntax: >
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.exam
+course2.exam
+Analyzing <Search Condition>
+Found a Keyword: OR
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.grade
+course.grade
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a LITERAL: A
+Literal: A
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course2
+Found Column Name: course2.grade
+course2.grade
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Found a LITERAL: A
+Literal: A
+Analyzing <Search Condition>
+Found a Syntax: ]
+Analyzing <Search Condition>
+Found Keyword:ORDER
+Found Keyword:BY
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: course
+Found Column Name: course.exam
+course.exam
+Found Keyword:DROP
+Analyzing <DropTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course
+Table coursewill be dropped
+Found Keyword:DROP
+Analyzing <DropTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: course2
+Table course2will be dropped
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:)
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:)
+Found Keyword:CREATE
+Analyzing <CreateTableStatement>
+Found Keyword:TABLE
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax:(
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:,
+Analyzing <AttributeTypeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Analyzing <DataType>
+Found DataType:INT
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:100
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: b
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:101
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:0
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:1
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:2
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:3
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:INSERT
+Analyzing <InsertStatement>
+Found Keyword: INTO
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Syntax: (
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: a
+Found Syntax:,
+Analyzing <AttributeList>
+Analyzing <AttributeName>
+Found IDENTIFIER: c
+Found Syntax: )
+Analyzing <InsertTuples>
+Found Keyword:VALUES
+Found Syntax:(
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:,
+Analyzing <ValueList>
+Analyzing <Value>
+Found INTEGER:102
+Found Syntax:)
+Found Keyword:SELECT
+Analyzing <SelectStatement>
+Analyzing <SelectList>
+Found Syntax:*
+Found Keyword:FROM
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: r
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: s
+Found Syntax:,
+Found <TableList>
+Analyzing <TableName>
+Found Tablename IDENTIFIER: t
+Found Keyword:WHERE
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: r
+Found Column Name: r.a
+r.a
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: t
+Found Column Name: t.a
+t.a
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: r
+Found Column Name: r.b
+r.b
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: s
+Found Column Name: s.b
+s.b
+Found a Keyword: AND
+Analyzing <BooleanTerm>
+Parsing <BooleanFactor>
+Parsing <BooleanPrimary>
+Analyzing <Comparision-Predicate>
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: s
+Found Column Name: s.c
+s.c
+Found a COMPARISON OPERATOR Syntax: =
+Analyzing <Expression>
+Analyzing <Term>
+Analyzing <Factor>
+Parsing <ColumnName>
+Found a Tablename IDENTIFIER: t
+Found Column Name: t.c
+t.c
+Analyzing <Search Condition>
